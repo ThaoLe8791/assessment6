@@ -1,7 +1,7 @@
 const { Builder, Browser, By, until } = require("selenium-webdriver");
 
 let driver;
-let liveServer = 'http://3.141.153.10'
+let liveServer = 'http://18.118.134.144'
 let localServer = "http://localhost:8000"
 beforeEach(async () => {
   driver = await new Builder().forBrowser(Browser.CHROME).build();
